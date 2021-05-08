@@ -69,7 +69,7 @@ const siteMetadata = {
     },
     {
       locale: "zh-Hant",
-      itle: "業餘項目分享交流",
+      title: "業餘項目分享交流",
       shortTitle: "業餘項目",
       description: "用中文瀏覽reddit業餘項目討論",
       keywords: ["buzzing", "業餘項目", "程序員"],
