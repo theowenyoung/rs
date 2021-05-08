@@ -1,11 +1,11 @@
 const siteMetadata = {
-  siteUrl: "https://news.buzzing.cc",
+  siteUrl: "https://sideproject.buzzing.cc",
   author: `Buzzing.cc`,
   locale: "zh",
-  title: "谷歌全球新闻头条",
-  shortTitle: "全球头条",
-  description: "用中文浏览谷歌全球新闻(西方媒体)头条",
-  keywords: ["buzzing", "西方媒体", "国外新闻", "世界新闻", "突发新闻"],
+  title: "业余项目分享交流",
+  shortTitle: "业余项目",
+  description: "用中文浏览reddit业余项目讨论",
+  keywords: ["buzzing", "业余项目", "程序员"],
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
   menuLinks: [
@@ -13,11 +13,11 @@ const siteMetadata = {
     //   name: "每周精选",
     //   url: "/issues",
     // },
-    {
-      name: "RSS",
-      url: "/rss.xml",
-      prefetch: false,
-    },
+    // {
+    //   name: "RSS",
+    //   url: "/rss.xml",
+    //   prefetch: false,
+    // },
   ],
   subscriptions: [
     {
@@ -38,8 +38,8 @@ const siteMetadata = {
   ],
   social: [
     {
-      name: `Google News`,
-      url: `https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB`,
+      name: `SideProject`,
+      url: `https://www.reddit.com/r/SideProject/`,
       external: true,
     },
     {
@@ -51,38 +51,56 @@ const siteMetadata = {
   localize: [
     {
       locale: "en",
-      title: `Buzzing on World News`,
+      title: `Buzzing on Side Project`,
       shortTitle: "BuzzNews",
-      description: `See what's buzzing on Google World News Headline in your native language`,
-      keywords: ["buzzing", "Breaking News"],
+      description: `See what's buzzing on Side Project in your native language`,
+      keywords: ["buzzing", "Side Project"],
       menuLinks: [
         // {
         //   name: "Weekly Selection",
         //   url: "/en/issues",
         // },
-        {
-          name: "RSS",
-          url: "/en/rss.xml",
-          prefetch: false,
-        },
+        // {
+        //   name: "RSS",
+        //   url: "/en/rss.xml",
+        //   prefetch: false,
+        // },
       ],
     },
     {
       locale: "zh-Hant",
-      title: "谷歌全球新聞頭條",
-      shortTitle: "全球頭條",
-      description: "用中文瀏覽谷歌全球新聞(西方媒體)頭條",
-      keywords: ["buzzing", "西方媒體", "國外新聞", "世界新聞", "突發新聞"],
+      itle: "業餘項目分享交流",
+      shortTitle: "業餘項目",
+      description: "用中文瀏覽reddit業餘項目討論",
+      keywords: ["buzzing", "業餘項目", "程序員"],
       menuLinks: [
         // {
         // name: "每週精選",
         // url: "/zh-Hant/issues",
         // },
-        {
-          name: "RSS",
-          url: "/zh-Hant/rss.xml",
-          prefetch: false,
-        },
+        // {
+        //   name: "RSS",
+        //   url: "/zh-Hant/rss.xml",
+        //   prefetch: false,
+        // },
+      ],
+    },
+    {
+      locale: "ja",
+      title: "サイドプロジェクト",
+      shortTitle: "サイドプロジェクト",
+      description: "人気のサイドプロジェクトを日本語で閲覧",
+      keywords: ["buzzing", "サイドプロジェクト"],
+      menuLinks: [
+        // {
+        // name: "每週精選",
+        // url: "/zh-Hant/issues",
+        // },
+        // {
+        //   name: "RSS",
+        //   url: "/zh-Hant/rss.xml",
+        //   prefetch: false,
+        // },
       ],
     },
   ],
