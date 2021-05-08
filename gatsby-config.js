@@ -31,7 +31,7 @@ if (isDev) {
       branch: `main`,
       fetchOptions: ["--depth", 1],
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/redirect-newstop/**"],
+      patterns: ["data/*-placeholder/1.json", "data/reddit-projects/**"],
     },
   });
 }
