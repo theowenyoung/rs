@@ -2,17 +2,17 @@ const siteMetadata = {
   siteUrl: "https://sideproject.buzzing.cc",
   author: `Buzzing.cc`,
   locale: "zh",
-  title: "业余项目分享交流",
-  shortTitle: "业余项目",
-  description: "用中文浏览reddit业余项目讨论",
-  keywords: ["buzzing", "业余项目", "程序员"],
-  telegram: "@buzzingcc",
-  telegram_chat_id: "-1001406368978",
+  title: "国外股市热门",
+  shortTitle: "股市热门",
+  description: "用中文浏览国外股票社区里的热门讨论",
+  keywords: ["buzzing", "股市热门", "国外股市热门"],
+  telegram: "@stocks_top",
+  telegram_chat_id: "-1001246603580",
   menuLinks: [
-    // {
-    //   name: "每周精选",
-    //   url: "/issues",
-    // },
+    {
+      name: "每周精选",
+      url: "/issues",
+    },
     // {
     //   name: "RSS",
     //   url: "/rss.xml",
@@ -31,6 +31,11 @@ const siteMetadata = {
       external: true,
     },
     {
+      name: "Telegram @国外股市热门讨论",
+      url: "https://t.me/stocks_top",
+      external: true,
+    },
+    {
       name: "RSS",
       url: "/rss.xml",
       prefetch: false,
@@ -38,8 +43,18 @@ const siteMetadata = {
   ],
   social: [
     {
-      name: `SideProject`,
-      url: `https://www.reddit.com/r/SideProject/`,
+      name:"Reddit Stocks",
+      url:"https://www.reddit.com/r/stocks",
+      external:true
+    },
+    {
+      name:"Reddit Investing",
+      url:"https://www.reddit.com/r/investing",
+      external:true
+    },
+    {
+      name: `Reddit Bogleheads`,
+      url: `https://www.reddit.com/r/Bogleheads/`,
       external: true,
     },
     {
@@ -51,15 +66,15 @@ const siteMetadata = {
   localize: [
     {
       locale: "en",
-      title: `Buzzing on Side Project`,
-      shortTitle: "BuzzNews",
-      description: `See what's buzzing on Side Project in your native language`,
-      keywords: ["buzzing", "Side Project"],
+      title: `Buzzing on Stocks`,
+      shortTitle: "BuzzStocks",
+      description: `See popular discussions in foreign stock communities in your native language`,
+      keywords: ["buzzing", "Stocks"],
       menuLinks: [
-        // {
-        //   name: "Weekly Selection",
-        //   url: "/en/issues",
-        // },
+        {
+          name: "Weekly Selection",
+          url: "/en/issues",
+        },
         // {
         //   name: "RSS",
         //   url: "/en/rss.xml",
@@ -69,15 +84,15 @@ const siteMetadata = {
     },
     {
       locale: "zh-Hant",
-      title: "業餘項目分享交流",
-      shortTitle: "業餘項目",
-      description: "用中文瀏覽reddit業餘項目討論",
-      keywords: ["buzzing", "業餘項目", "程序員"],
+      title: "國外股市熱門",
+      shortTitle: "股市熱門",
+      description: "用中文瀏覽國外股票社區裡的熱門討論",
+      keywords: ["buzzing", "股市熱門"],
       menuLinks: [
-        // {
-        // name: "每週精選",
-        // url: "/zh-Hant/issues",
-        // },
+        {
+        name: "每週精選",
+        url: "/zh-Hant/issues",
+        },
         // {
         //   name: "RSS",
         //   url: "/zh-Hant/rss.xml",
@@ -87,15 +102,15 @@ const siteMetadata = {
     },
     {
       locale: "ja",
-      title: "サイドプロジェクト",
-      shortTitle: "サイドプロジェクト",
-      description: "人気のサイドプロジェクトを日本語で閲覧",
-      keywords: ["buzzing", "サイドプロジェクト"],
+      title: "米国株式市場人気の話し合います",
+      shortTitle: "米国株",
+      description: "人気の米国株式市場の話し合いまを日本語で閲覧",
+      keywords: ["buzzing", "米国株式市場"],
       menuLinks: [
-        // {
-        // name: "每週精選",
-        // url: "/zh-Hant/issues",
-        // },
+        {
+        name: "每週精選",
+        url: "/ja/issues",
+        },
         // {
         //   name: "RSS",
         //   url: "/zh-Hant/rss.xml",

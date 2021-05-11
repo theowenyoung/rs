@@ -9,21 +9,9 @@ import { LocalizedLink as Link } from "gatsby-theme-i18n";
 export default function Bio() {
   return (
     <>
-      <Trans>
-        See what's buzzing on{" "}
-        <LinkUI
-          href="https://www.reddit.com/r/SideProject/"
-          target="_blank"
-          rel="noopener noreferrer"
-          sx={css({
-            lineHeight: 2,
-          })}
-        >
-          Side Project
-        </LinkUI>{" "}
-        in your native language on{" "}
+      <Trans>See popular discussions in foreign stock communities in your native language on{" "}
         <LinkUI as={Link} to="/">
-          sideproject.buzzing.cc
+          stocks.buzzing.cc
         </LinkUI>
       </Trans>
     </>
