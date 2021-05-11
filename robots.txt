@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sideproject.buzzing.cc/sitemap.xml
+Host: https://sideproject.buzzing.cc
